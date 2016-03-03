@@ -6,7 +6,7 @@ from pyspark import SparkContext
 import datetime
 
 # define params
-s3_target_bucket_name = 'mattsona-public'
+s3_target_bucket_name = 'mattsona-spark-demo'
 
 sc = SparkContext() # create a spark context
 
